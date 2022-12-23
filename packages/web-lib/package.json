@@ -1,0 +1,23 @@
+{
+  "name": "@f1am3d/structurify",
+  "private": true,
+  "version": "0.1.0",
+  "main": "./dist/structurify.mjs",
+  "module": "./dist/structurify.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/structurify.mjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "vite": "^4.0.0",
+    "vite-plugin-dts": "^1.7.1",
+    "vite-plugin-wasm": "^3.1.0"
+  }
+}
