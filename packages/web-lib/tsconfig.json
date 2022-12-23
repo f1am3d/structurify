@@ -22,8 +22,8 @@
     "skipLibCheck": false,
     "allowJs": true,
     "paths": {
-      "@f1am3d/structurify-wasm": ["./../wasm-lib/pkg"],
-      "@f1am3d/structurify-wasm/*": ["./../wasm-lib/pkg/*"]
+      "wasm-core": ["./../wasm-lib/pkg"],
+      "wasm-core/*": ["./../wasm-lib/pkg/*"]
     }
   },
   "include": [

@@ -1,5 +1,5 @@
 [package]
-    name = "f1am3d-structurify-core"
+    name = "wasm-core"
     version = "0.1.0"
     edition = "2021"
     authors = ["Artem <flamesoff@example.com>"]

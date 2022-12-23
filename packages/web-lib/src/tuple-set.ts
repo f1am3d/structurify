@@ -1,4 +1,4 @@
-import { Set as StSet } from "@f1am3d/structurify-wasm";
+import { Set as StSet } from "wasm-core";
 
 export type TupleSetValue = string | number | boolean | null | undefined;
 

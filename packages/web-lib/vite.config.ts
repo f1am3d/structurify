@@ -3,7 +3,6 @@ import { defineConfig, UserConfig } from 'vite';
 import wasmPlugin from 'vite-plugin-wasm';
 import dtsPlugin from 'vite-plugin-dts';
 
-const filename = 'structurify';
 
 module.exports = defineConfig(({ command, mode, ssrBuild }) => {
   const sharedConfig: UserConfig = {

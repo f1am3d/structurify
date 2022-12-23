@@ -1,2 +1,4 @@
 // exporting module;
-mod set;
+pub mod set;
+pub mod array;
+pub mod benchmarks;
